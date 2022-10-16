@@ -3,6 +3,13 @@ A [FoundryVTT](https://foundryvtt.com/) module to provide colored icon borders t
 
 ![Foundry Version](https://img.shields.io/badge/Foundry-v10-informational)
 
+## Just Give it to Me
+
+Add-on Modules -> Install Module -> Manifest URL -> 
+```
+https://github.com/jshank/fvtt-rainbowroom/releases/latest/download/module.json
+```
+
 ## What is this for?
 Make it easier for your players to identify tokens during in-person play.
 
