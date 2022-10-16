@@ -3,6 +3,18 @@ A [FoundryVTT](https://foundryvtt.com/) module to provide colored icon borders t
 
 ![Foundry Version](https://img.shields.io/badge/Foundry-v10-informational)
 
+## What is this for?
+Make it easier for your players to identify tokens during in-person play.
+
+> Player - "I want to shoot my shortbow at the vulture"
+>
+> GM - "Which one?"
+>
+> Player - "The green one!"
+
+![rainbowroom sample](images/rainbowroom-sample.png)
+
+
 ## Main Interface
 Two buttons are added to the Token toolbar that allow the GM to set unique border colors for a group of tokens. Simply select the tokens you wish to add borders to and click on the **Bulk Color Token Borders** button. 
 
