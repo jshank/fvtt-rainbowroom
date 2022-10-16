@@ -49,4 +49,5 @@ This is my first Foundry module and first attempt at developing anything in Java
  - The amazing folks on the [Foundry VTT module-development channel](https://discord.com/channels/170995199584108546/722559135371231352) are patient, knowledgable and kind. Special thanks to EBER#7243 and mxzf#5874.
  - Much of the drawing code is shamelessly copied from https://github.com/kandashi/Border-Control
  - I also copied some of the interface handling and button overrides from https://github.com/CDeenen/LockView
+ - The awesome how-to videos for publishing on github by [spacemandev](https://www.youtube.com/user/Devenish97)
  - Of course, none of this would do anything without the amazing work of everyone who has built [FoundryVTT](https://foundryvtt.com/)
