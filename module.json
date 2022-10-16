@@ -2,7 +2,7 @@
     "id": "rainbowroom",
     "title": "Rainbow Room",
     "description": "A module that generates different colored borders for a selection of tokens. This aids in players identifying targets in face to face games.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "compatibility": {
         "minimum": 10,
         "verified": "10.288"
