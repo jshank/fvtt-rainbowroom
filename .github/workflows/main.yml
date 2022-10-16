@@ -42,6 +42,6 @@ jobs:
           draft: false
           prerelease: false
           token: ${{secrets.GITHUB_TOKEN}}
-          aritfacts: './module.json, ./rainbowrooom.zip'
+          artifacts: './module.json, ./rainbowrooom.zip'
           tag: ${{ steps.get-version.outputs.version }}
           body: ${{ github.event.release.body }}
