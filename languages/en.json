@@ -1,0 +1,11 @@
+{
+    "RAINBOWROOM": {
+        "button-title": "Border Color",
+        "ui-warn-color-noneselected" : "Select at least one token to colorize borders",
+        "ui-warn-clear-noneselected" : "Select at least one token to clear borders",
+        "ControlBtns" : {
+            "Label_Colorize": "Bulk Color Token Borders",
+            "Label_Clear": "Clear Token Borders"
+        }
+    }
+}
