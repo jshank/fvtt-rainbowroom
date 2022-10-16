@@ -10,7 +10,7 @@ Make it easier for your players to identify tokens during in-person play.
 >
 > GM - "Which one?"
 >
-> Player - "The green one!"
+> Player - "The blue one!"
 
 ![rainbowroom sample](images/rainbowroom-sample.png)
 
