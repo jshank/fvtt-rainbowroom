@@ -1,33 +1,35 @@
 {
-    "id": "rainbowroom",
-    "title": "Rainbow Room",
-    "description": "A module that generates different colored borders for a selection of tokens. This aids in players identifying targets in face to face games.",
-    "version": "1.0.1",
-    "compatibility": {
-        "minimum": 10,
-        "verified": "10.288"
-      },
-    "authors": [
-        {
-            "name": "Jim Shank",
-            "url": "https://github.com/jshank/fvtt-rainbowroom",
-            "discord": "Jim#3380"
-        }
-    ],
-    "esmodules": [
-        "/scripts/rainbowroom.js"
-    ],
-    "languages": [
-      {
-        "lang": "en",
-        "name": "English",
-        "path": "languages/en.json"
-      }
-    ],
-    "styles": [
-        "styles/rainbowroom.css"
-    ],
-    "url": "https://github.com/jshank/fvtt-rainbowroom",
-    "manifest": "https://github.com/jshank/fvtt-rainbowroom/releases/latest/download/module.json",
-    "download": "https://github.com/jshank/fvtt-rainbowroom/releases/download/1.0.0/rainbowroom.zip"
+  "id": "rainbowroom",
+  "title": "Rainbow Room",
+  "description": "A module that generates different colored borders for a selection of tokens. This aids in players identifying targets in face to face games.",
+  "version": "1.1.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.288"
+  },
+  "authors": [
+    {
+      "name": "Jim Shank",
+      "url": "https://github.com/jshank/fvtt-rainbowroom",
+      "discord": "Jim#3380",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "/scripts/rainbowroom.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json",
+      "flags": {}
+    }
+  ],
+  "styles": [
+    "styles/rainbowroom.css"
+  ],
+  "url": "https://github.com/jshank/fvtt-rainbowroom",
+  "manifest": "https://github.com/jshank/fvtt-rainbowroom/releases/latest/download/module.json",
+  "download": "https://github.com/jshank/fvtt-rainbowroom/releases/download/v1.0.1/rainbowroom.zip"
 }
