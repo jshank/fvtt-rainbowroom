@@ -1,4 +1,4 @@
-# Rainbow Room
+# Colored Token Borders
 A [FoundryVTT](https://foundryvtt.com/) module to provide colored icon borders to ease identification of tokens. Great for in-person play!
 
 ![Foundry Version](https://img.shields.io/badge/Foundry-v10-informational)

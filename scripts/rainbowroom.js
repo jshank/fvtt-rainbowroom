@@ -37,7 +37,7 @@ class RainbowRoom {
       const t = 20; //border thickness
       const sB = 1; //scale border
       const nBS = canvas.dimensions.size / 100 //border grid scale (usually 1)
-      const p = 8 // border offfset negative for inside
+      const p = -25 // border offfset negative for inside
       const q = Math.round(p / 2)
       const h = Math.round(t / 2);
       const o = Math.round(h / 2);
