@@ -1,8 +1,9 @@
 # Colored Token Borders
 A [FoundryVTT](https://foundryvtt.com/) module to provide colored icon borders to ease identification of tokens. Great for in-person play!
 
-![Foundry Version](https://img.shields.io/badge/Foundry-v10-informational)
-
+[![Latest Version](https://img.shields.io/github/v/release/jshank/fvtt-rainbowroom?display_name=tag&sort=semver&label=Latest%20Version)](https://github.com/jshank/fvtt-rainbowroom/releases/latest)
+![Supported Foundry Versions](https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://github.com/jshank/fvtt-rainbowroom/releases/latest/download/module.json)
+![Latest Release Download Count](https://img.shields.io/github/downloads/jshank/fvtt-rainbowroom/latest/rainbowroom.zip)
 ## Just Give it to Me
 
 Add-on Modules -> Install Module -> Manifest URL -> 
