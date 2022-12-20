@@ -23,6 +23,11 @@ class RainbowRoom {
         }
     }
 
+    /**
+    * Set the border color for a token
+    * 
+    * @param {token} token The Token for which to update the border color.
+    */
     static Colorize(token){
       let borderColor = Color.from(token.document.getFlag(RainbowRoom.ID, RainbowRoom.FLAGS.BORDERCOLOR))
       this.log(false, `Entering Colorize: token ${token.document.name}: border color is ${token.border._lineStyle.color} and should be ${borderColor.valueOf()}`)
@@ -37,7 +42,7 @@ class RainbowRoom {
       const t = 20; //border thickness
       const sB = 1; //scale border
       const nBS = canvas.dimensions.size / 100 //border grid scale (usually 1)
-      const p = -25 // border offfset negative for inside
+      const p = -15 // border offfset negative for inside
       const q = Math.round(p / 2)
       const h = Math.round(t / 2);
       const o = Math.round(h / 2);
@@ -48,9 +53,11 @@ class RainbowRoom {
       // PIXI.lineStyle (width, color, alpha).drawRoundedRect (x, y, width, height, radius)
       token.border.lineStyle(h * nBS, borderColor.valueOf(), 1.0).drawRoundedRect(-o - q + sW, -o - q + sH, (token.w + h) * s + p, (token.h + h) * s + p, 3);
       // Only needed until https://github.com/foundryvtt/foundryvtt/issues/8364 is fixed
-      token.border.position.set(token.document.x, token.document.y); 
+      // token.border.position.set(token.document.x, token.document.y); 
     }
-
+    /**
+    * Control token border visibility when the scene changes
+    */
     static UpdateSight() {
       // Hide any token borders if the tokens can't be seen
       canvas.tokens.placeables.forEach(t => {
@@ -62,6 +69,12 @@ class RainbowRoom {
         }
       })
     }
+        /**
+    * Insert the token border controls when rendering the TokenConfig form
+    * 
+    * @param {Application} app application callback object
+    * @param {HTMLElement} html the full DOM of the hooked object
+    */
 
     static _handleRenderFormApplication(app, html) {
       if (app.constructor.name !== "TokenConfig") return;
